@@ -1,0 +1,19 @@
+import java.util.Scanner;
+
+public class temperatureConverter {
+
+    public static void main (String args[]) {
+        // User Input
+        Scanner myScanner = new Scanner(System.in);
+        System.out.println("Enter the temperature in Celsius: ");
+        double temperature = myScanner.nextDouble();
+
+        // Conversion Process
+        double result = (temperature * 9 / 5) + 32;
+
+        // Computer Output
+        System.out.println("Input: " + temperature);
+        System.out.println("Output: " + result);
+    }
+
+}
